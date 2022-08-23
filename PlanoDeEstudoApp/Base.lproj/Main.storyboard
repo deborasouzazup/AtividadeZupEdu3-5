@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zupicon" translatesAutoresizingMaskIntoConstraints="NO" id="5SW-Fc-lCN" userLabel="Image View Zup">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="5SW-Fc-lCN" userLabel="Image View Zup">
                                 <rect key="frame" x="24" y="64" width="120" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="LMd-TN-lql"/>
@@ -112,6 +112,9 @@
                                             <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                             <color key="baseBackgroundColor" red="0.45098039215686275" green="0.69019607843137254" blue="0.70980392156862748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="ReceberMaterialButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RBE-P8-ygA"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -168,6 +171,12 @@
                             <constraint firstItem="YZF-9r-Fcf" firstAttribute="top" secondItem="5SW-Fc-lCN" secondAttribute="bottom" constant="8" id="zAh-fV-sad"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="areaDeAtuacaoTextFiedl" destination="k9l-HK-69V" id="em7-Ir-OH4"/>
+                        <outlet property="emailTextField" destination="TSU-mD-zV0" id="RJH-8a-N5k"/>
+                        <outlet property="nameTextField" destination="yFf-lM-ZKF" id="SPr-rA-bx7"/>
+                        <outlet property="statusTextFiedl" destination="wVC-e5-Cpc" id="aCP-eh-T3n"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -175,7 +184,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="zupicon" width="2048" height="1043"/>
+        <image name="Image" width="2048" height="1043"/>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
