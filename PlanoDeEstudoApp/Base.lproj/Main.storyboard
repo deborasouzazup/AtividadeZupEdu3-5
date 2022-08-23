@@ -35,6 +35,122 @@
                                 <color key="textColor" systemColor="systemBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1rI-mS-bJV" userLabel="View Informacoes">
+                                <rect key="frame" x="24" y="322" width="366" height="361"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nome" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yFf-lM-ZKF" userLabel="Nome Text Field">
+                                        <rect key="frame" x="24" y="24" width="318" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="Wus-9Z-cxl"/>
+                                        </constraints>
+                                        <color key="textColor" systemColor="secondaryLabelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="words" spellCheckingType="no" textContentType="name"/>
+                                    </textField>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JN3-u4-SwO" userLabel="ViewBordaNome">
+                                        <rect key="frame" x="24" y="66" width="318" height="1"/>
+                                        <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="0gn-sb-7tj"/>
+                                        </constraints>
+                                    </view>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TSU-mD-zV0">
+                                        <rect key="frame" x="24" y="82" width="318" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="4X7-qQ-jP8"/>
+                                        </constraints>
+                                        <color key="textColor" systemColor="secondaryLabelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" textContentType="email"/>
+                                    </textField>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WLT-n7-vSk" userLabel="ViewBordaEmail">
+                                        <rect key="frame" x="24" y="124" width="318" height="1"/>
+                                        <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="ZMs-wJ-I6Y"/>
+                                        </constraints>
+                                    </view>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Qual sua área de atuação?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k9l-HK-69V">
+                                        <rect key="frame" x="24" y="140" width="318" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="jcU-aQ-lN5"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textField>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pew-N5-C9x" userLabel="ViewBoardaAtuacao">
+                                        <rect key="frame" x="24" y="182" width="318" height="1"/>
+                                        <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="ePR-LX-wMJ"/>
+                                        </constraints>
+                                    </view>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Qual seu status profissional?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wVC-e5-Cpc">
+                                        <rect key="frame" x="24" y="198" width="318" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="vMu-EY-E7J"/>
+                                        </constraints>
+                                        <color key="textColor" systemColor="secondaryLabelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textField>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9oM-Ht-ALY" userLabel="ViewBordaStatus">
+                                        <rect key="frame" x="24" y="240" width="318" height="1"/>
+                                        <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="IHd-nq-srR"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7MG-iJ-WJU" userLabel="ButtonConfirmar">
+                                        <rect key="frame" x="24" y="273" width="318" height="56"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="56" id="bXj-Y9-Nc5"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Quero receber o material">
+                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="18"/>
+                                            <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                            <color key="baseBackgroundColor" red="0.45098039215686275" green="0.69019607843137254" blue="0.70980392156862748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="TSU-mD-zV0" firstAttribute="top" secondItem="yFf-lM-ZKF" secondAttribute="bottom" constant="16" id="1ZU-uw-FdR"/>
+                                    <constraint firstItem="k9l-HK-69V" firstAttribute="top" secondItem="TSU-mD-zV0" secondAttribute="bottom" constant="16" id="5L6-vn-eTu"/>
+                                    <constraint firstItem="pew-N5-C9x" firstAttribute="leading" secondItem="k9l-HK-69V" secondAttribute="leading" id="7dO-GM-peg"/>
+                                    <constraint firstItem="7MG-iJ-WJU" firstAttribute="top" secondItem="9oM-Ht-ALY" secondAttribute="bottom" constant="32" id="AT9-uI-Mrn"/>
+                                    <constraint firstItem="yFf-lM-ZKF" firstAttribute="leading" secondItem="1rI-mS-bJV" secondAttribute="leading" constant="24" id="B8Y-Oj-OVL"/>
+                                    <constraint firstItem="wVC-e5-Cpc" firstAttribute="leading" secondItem="k9l-HK-69V" secondAttribute="leading" id="Caa-Qz-CAE"/>
+                                    <constraint firstItem="9oM-Ht-ALY" firstAttribute="trailing" secondItem="wVC-e5-Cpc" secondAttribute="trailing" id="DN8-QX-Q5a"/>
+                                    <constraint firstItem="JN3-u4-SwO" firstAttribute="top" secondItem="yFf-lM-ZKF" secondAttribute="bottom" id="FbW-ej-K9r"/>
+                                    <constraint firstItem="JN3-u4-SwO" firstAttribute="leading" secondItem="yFf-lM-ZKF" secondAttribute="leading" id="HoA-9H-wqW"/>
+                                    <constraint firstAttribute="bottom" secondItem="7MG-iJ-WJU" secondAttribute="bottom" constant="32" id="Ojl-0D-Yhc"/>
+                                    <constraint firstItem="9oM-Ht-ALY" firstAttribute="leading" secondItem="wVC-e5-Cpc" secondAttribute="leading" id="W7w-rh-BCr"/>
+                                    <constraint firstItem="JN3-u4-SwO" firstAttribute="trailing" secondItem="yFf-lM-ZKF" secondAttribute="trailing" id="XlX-T6-3ul"/>
+                                    <constraint firstItem="7MG-iJ-WJU" firstAttribute="leading" secondItem="wVC-e5-Cpc" secondAttribute="leading" id="ZSP-eR-IZs"/>
+                                    <constraint firstItem="WLT-n7-vSk" firstAttribute="top" secondItem="TSU-mD-zV0" secondAttribute="bottom" id="cBt-e4-6vM"/>
+                                    <constraint firstItem="7MG-iJ-WJU" firstAttribute="trailing" secondItem="wVC-e5-Cpc" secondAttribute="trailing" id="dcY-ZI-qQ7"/>
+                                    <constraint firstItem="TSU-mD-zV0" firstAttribute="leading" secondItem="yFf-lM-ZKF" secondAttribute="leading" id="dmf-1y-9No"/>
+                                    <constraint firstItem="pew-N5-C9x" firstAttribute="trailing" secondItem="k9l-HK-69V" secondAttribute="trailing" id="eSr-il-9Yi"/>
+                                    <constraint firstItem="TSU-mD-zV0" firstAttribute="trailing" secondItem="yFf-lM-ZKF" secondAttribute="trailing" id="h6g-nv-AoI"/>
+                                    <constraint firstItem="wVC-e5-Cpc" firstAttribute="trailing" secondItem="k9l-HK-69V" secondAttribute="trailing" id="l8H-I4-6gj"/>
+                                    <constraint firstItem="k9l-HK-69V" firstAttribute="leading" secondItem="TSU-mD-zV0" secondAttribute="leading" id="pHI-g7-lFV"/>
+                                    <constraint firstItem="9oM-Ht-ALY" firstAttribute="top" secondItem="wVC-e5-Cpc" secondAttribute="bottom" id="pVR-Tf-KRw"/>
+                                    <constraint firstAttribute="trailing" secondItem="yFf-lM-ZKF" secondAttribute="trailing" constant="24" id="r7Z-bE-40J"/>
+                                    <constraint firstItem="yFf-lM-ZKF" firstAttribute="top" secondItem="1rI-mS-bJV" secondAttribute="top" constant="24" id="rR0-fw-n2J"/>
+                                    <constraint firstItem="wVC-e5-Cpc" firstAttribute="top" secondItem="k9l-HK-69V" secondAttribute="bottom" constant="16" id="tj2-mK-g7e"/>
+                                    <constraint firstItem="WLT-n7-vSk" firstAttribute="leading" secondItem="TSU-mD-zV0" secondAttribute="leading" id="wiP-dd-cWg"/>
+                                    <constraint firstItem="k9l-HK-69V" firstAttribute="trailing" secondItem="TSU-mD-zV0" secondAttribute="trailing" id="wpA-Ho-hUD"/>
+                                    <constraint firstItem="pew-N5-C9x" firstAttribute="top" secondItem="k9l-HK-69V" secondAttribute="bottom" id="ycv-qx-RTw"/>
+                                    <constraint firstItem="WLT-n7-vSk" firstAttribute="trailing" secondItem="TSU-mD-zV0" secondAttribute="trailing" id="zcm-8H-4GZ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.45098039215686275" green="0.69019607843137254" blue="0.70980392156862748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -42,8 +158,11 @@
                             <constraint firstItem="A6q-D3-KH9" firstAttribute="trailing" secondItem="YZF-9r-Fcf" secondAttribute="trailing" id="2Wv-4c-iwo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YZF-9r-Fcf" secondAttribute="trailing" constant="24" id="529-Jb-86d"/>
                             <constraint firstItem="5SW-Fc-lCN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="5bE-IO-Ke6"/>
+                            <constraint firstItem="1rI-mS-bJV" firstAttribute="top" secondItem="A6q-D3-KH9" secondAttribute="bottom" constant="32" id="Dql-Ne-vVQ"/>
+                            <constraint firstItem="1rI-mS-bJV" firstAttribute="leading" secondItem="A6q-D3-KH9" secondAttribute="leading" id="Kp3-Lh-pdb"/>
                             <constraint firstItem="5SW-Fc-lCN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="PI7-JS-ajk"/>
                             <constraint firstItem="A6q-D3-KH9" firstAttribute="top" secondItem="YZF-9r-Fcf" secondAttribute="bottom" constant="8" id="b2k-en-JYC"/>
+                            <constraint firstItem="1rI-mS-bJV" firstAttribute="trailing" secondItem="A6q-D3-KH9" secondAttribute="trailing" id="pDr-hZ-Rc6"/>
                             <constraint firstItem="A6q-D3-KH9" firstAttribute="leading" secondItem="YZF-9r-Fcf" secondAttribute="leading" id="rZC-Mq-ptN"/>
                             <constraint firstItem="YZF-9r-Fcf" firstAttribute="leading" secondItem="5SW-Fc-lCN" secondAttribute="leading" id="xIQ-Dr-Xrn"/>
                             <constraint firstItem="YZF-9r-Fcf" firstAttribute="top" secondItem="5SW-Fc-lCN" secondAttribute="bottom" constant="8" id="zAh-fV-sad"/>
@@ -57,8 +176,17 @@
     </scenes>
     <resources>
         <image name="zupicon" width="2048" height="1043"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
